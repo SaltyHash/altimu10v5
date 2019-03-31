@@ -11,9 +11,10 @@ The datasheet for the LSM6DS33 is available at
 """
 
 import math
-from i2c import I2C
 from time import sleep
-from constants import *
+
+from .i2c import I2C
+from .constants import *
 
 
 class LSM6DS33(I2C):
