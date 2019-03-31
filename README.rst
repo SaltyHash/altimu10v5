@@ -33,4 +33,4 @@ When the package is installed via ``easy_install`` or ``pip`` this function will
 Dependencies
 ------------
 
-- smbus
+- smbus (``pip[3] install smbus``)
