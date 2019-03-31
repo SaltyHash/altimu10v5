@@ -29,3 +29,8 @@ Usage
 
 
 When the package is installed via ``easy_install`` or ``pip`` this function will be bound to the ``altimu10v5`` executable in the Python installation's ``bin`` directory.
+
+Dependencies
+------------
+
+- smbus
