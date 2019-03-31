@@ -4,9 +4,10 @@ altimu10v5: Main module
 Copyright 2017, Svetoslav Kuzmanov
 Licensed under MIT.
 '''
-from lsm6ds33 import LSM6DS33
-from lis3mdl import LIS3MDL
-from lps25h import LPS25H
+
+from .lsm6ds33 import LSM6DS33
+from .lis3mdl import LIS3MDL
+from .lps25h import LPS25H
 
 
 class IMU(object):
